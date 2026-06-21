@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Data / model artifacts
+*.pkl
+*.parquet
+*.csv
+*.json.gz
+model_artifacts/
+
+# Spark
+derby.log
+metastore_db/
+
+# Airflow
+airflow/logs/
+airflow.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
